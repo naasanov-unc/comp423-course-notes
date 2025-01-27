@@ -10,6 +10,7 @@
 Make sure you have the following installed
 
 * Git: Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) if you don’t already have it.
+* A GitHub account: If you don’t have one yet, sign up at [GitHub](https://github.com/).
 * Visual Studio Code (VS Code): Download and install it from [here](https://code.visualstudio.com/).
 * Docker: Required to run the dev container. Get Docker [here](https://www.docker.com/products/docker-desktop/).
 
@@ -174,3 +175,11 @@ cd ..
 git add .
 git commit -m "Hello COMP423 in Rust"
 ```
+
+Finally, let's push these changes to a remote repository on your GitHub account. We can do this through VS Code in three easy steps:
+
+1. Install the **GitHub Extension** in VS Code. You can find it by going to the Extensions tab, and searching for "GitHub Pull Requests and Issues".
+2. Sign into your GitHub account by following the prompts to authenticate with GitHub in your browser. 
+3. Now, you can simply click the **Publish to GitHub** that appears in the Source Control panel in your VS Code interface.
+
+VS Code will prompt you to enter a repository name, or just let you stick with the name of the local repository. It will also ask if you want the repository to be public or private. Once you've responded to these prompts, VS Code will automatically push the local repository to GitHub, creating a new repository on your GitHub account. 
