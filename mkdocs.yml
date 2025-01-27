@@ -25,6 +25,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+  icon:
+    annotation: material/plus-circle
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -35,4 +37,7 @@ markdown_extensions:
   - pymdownx.superfences
   - admonition
   - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
   - pymdownx.superfences
